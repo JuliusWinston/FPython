@@ -30,3 +30,9 @@ bacon + 1
 9. What three functions can be used to get the integer, floating-point number, or string version of a value?
 
 10. Write a program that asks the user for their full name, age, address, and nationality. And the program should display a description of the user that includes the user's name, age, address and nationality to the screen.
+PS: Steps to create and run a python program in VS code
+1. Open VS code
+2. Open folder (the folder for the lessons)
+3. Click on file from the menu and select new file
+4. Select python file
+5. Name the file with a .py extension and save the file
