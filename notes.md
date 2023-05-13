@@ -1,5 +1,7 @@
 # BEGINNER PYTHON LESSONS
 
+## WEEK 1
+
 ## A program that asks the user for his/her password and gives or denies access based on the password
 
     password = "opensesame"
@@ -52,7 +54,8 @@ String (str): 'a', 'aa', 'aaa', 'Hello!', '11', '12 cats'
 
 ## Operands / Data type
 
-### Operators:
+### Operators (Arithmetic)
+
 * Exponent                                  **          2**3       8
 * Modulus/remainder                          %          22 % 8     6
 * Integer division / floored quotient       //          22 // 8    2
@@ -143,3 +146,107 @@ str(int) converts an numbers to string
 int(value) convers valid figure values into integers
 float('4.90')
 float(5)
+
+## WEEK 2
+
+## Flow Control
+
+## Boolean Values (True or False)
+
+While the integer, floating-point, and string data types have an unlimited
+number of possible values, the Boolean data type has only two values: True
+and False.
+
+## Comparison Operators
+
+* Equal to                      ==
+* Not equal to                  !=
+* Less than                     <
+* Greater than                  >
+* Less than or equal to         <=
+* Greater than or equal to      >=
+
+## Boolean Operators (and, or, not)
+
+- Binary Boolean Operators (and, or) 
+- Not operator (not)
+
+### Truth table for and
+
+True and True     True
+True and False    False
+False and True    False
+False and False   False
+
+### Truth table for or
+
+True or True     True
+True or False    True
+False or True    True
+False or False   False
+
+### Truth table for not
+
+not True      False
+not False     True
+
+## Mixing Boolean and Comparison Operators
+
+(4 < 5) and (5 < 6)
+(4 < 5) and (9 < 6)
+2 + 2 == 4 and not 2 + 2 == 5 and 2 * 2 == 2 + 2
+
+The Boolean operators have an order of operations just like the
+math operators do. After any math and comparison operators evaluate,
+Python evaluates the not operators first, then the and operators, and then
+the or operators.
+
+## Blocks of code
+
+### Three rules
+
+* Blocks begin when the indentation increases.
+* Blocks can contain other blocks.
+* Blocks end when the indentation decreases to zero or to a containing block’s indentation.
+
+## Program Execution
+
+## Flow Control Statements
+
+### if statement
+
+consists of:
+
+* if keyword word (reserved words)
+* A condition (that is, an expression that evaluates to True or False)
+* A colon
+* Starting on the next line, an indented block of code (called the if clause)
+
+### else statement
+
+consists of:
+
+* else keyword
+* a colon
+* Starting on the next line, an indented block of code (called the else clause)
+
+e.g
+
+    if name == 'Sensei':
+        print('Hello, Sensei')
+    else:
+        print('Hi, Stranger')
+
+### elif statements
+
+* if keyword word (reserved words)
+* A condition (that is, an expression that evaluates to True or False)
+* A colon
+* Starting on the next line, an indented block of code (called the if clause)
+
+e.g
+
+    if name == 'Sensei':
+        print('Hello, Sensei')
+    elif age < 12:
+        print('You are not Sensei, you are a kid')
