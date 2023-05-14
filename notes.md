@@ -250,3 +250,36 @@ e.g
         print('Hello, Sensei')
     elif age < 12:
         print('You are not Sensei, you are a kid')
+
+## While Loop statements
+
+You can make a block of code execute over and over again using a while
+statement. The code in a while clause will be executed as long as the while
+statement’s condition is True. In code, a while statement always consists of
+the following:
+
+* the while keyword
+* A condition (that is, an expression that evaluates to True or False)
+* A colon
+* Starting on the next line, an indented block of code (called the
+while clause)
+
+e.g write a program that displays the total/sum of the first 10 numbers starting from 1
+
+solution: 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 = 55
+
+breakdown of the solution:
+
+step 0: 1 <br >
+step 1: 1 + 2 = 3 <br >
+step 2: 3 + 4 = 7 <br >
+step 3: 7 + 5 = 12<br >
+step 4: 12 + 6 = 18<br >
+step 5: 18 + 7 = 25<br >
+step 6: 25 + 8 = 33<br >
+step 7: 33 + 9 = 42<br >
+step 8: 42 + 10 = 52
+
+PS: we missed a step which was adding 3
+
+answer = 55
